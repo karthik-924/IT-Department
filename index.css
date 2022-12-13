@@ -1,0 +1,35 @@
+.centering{
+    width: 30%;
+        height: fit-content;
+        position: absolute; /*Can also be `fixed`*/
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        padding-bottom: 2%;
+        background-color:white;
+        border-radius:5%;
+}
+body{
+    background-image: url("./VBIT.webp");
+    background-size:auto;
+    background-repeat: no-repeat;
+    
+}
+.adjust{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+
+
+@media screen and (max-width: 1200px){.centering{width: 35%;}}
+@media screen and (max-width: 950px){.centering{width: 40%;}}
+@media screen and (max-width: 800px){.centering{width: 45%;}}
+@media screen and (max-width: 700px){.centering{width: 50%;}}
+@media screen and (max-width: 600px){.centering{width: 55%;}}
+@media screen and (max-width: 500px){.centering{width: 60%;}}
+@media screen and (max-width: 400px){.centering{width: 70%;}}
+@media screen and (max-width: 350px){.centering{width: 75%;}}
